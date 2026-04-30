@@ -138,7 +138,7 @@ export default function CareerJourney() {
     )}
     <section
       id="experience"
-      className="px-8 py-12 border-t border-gray-100 dark:border-gray-800 max-w-5xl mx-auto"
+      className="px-4 sm:px-8 py-12 border-t border-gray-100 dark:border-gray-800 max-w-5xl mx-auto"
       style={{ cursor: "none", position: "relative", overflow: "hidden" }}
       onMouseMove={handleMouseMove}
       onMouseEnter={showCursor}
@@ -196,6 +196,7 @@ export default function CareerJourney() {
                 key={stop.expId}
                 onMouseEnter={() => setHovered(stop.expId)}
                 onMouseLeave={() => setHovered(null)}
+                onClick={() => setHovered(prev => prev === stop.expId ? null : stop.expId)}
                 style={{ cursor: "none" }}
               >
                 <g transform={`translate(${stop.cx}, ${stop.cy})`}>

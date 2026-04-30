@@ -18,7 +18,7 @@ export default function ProjectPage({ projectId }) {
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
       <Navbar />
 
-      <div className="max-w-3xl mx-auto px-8 py-12">
+      <div className="max-w-3xl mx-auto px-4 sm:px-8 py-10 sm:py-12">
         {/* Back link */}
         <button
           onClick={goHome}

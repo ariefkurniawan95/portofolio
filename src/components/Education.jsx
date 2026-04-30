@@ -8,7 +8,7 @@ const typeStyles = {
 
 export default function Education() {
   return (
-    <section id="education" className="px-8 py-12 border-t border-gray-100 dark:border-gray-800 max-w-5xl mx-auto">
+    <section id="education" className="px-4 sm:px-8 py-12 border-t border-gray-100 dark:border-gray-800 max-w-5xl mx-auto">
       <p className="text-xs font-medium text-blue-600 uppercase tracking-widest mb-6">
         Education
       </p>

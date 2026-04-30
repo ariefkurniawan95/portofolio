@@ -3,7 +3,7 @@ import profilePic from "../images/profile_picture.jpg";
 
 export default function Hero() {
   return (
-    <section className="px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+    <section className="px-4 sm:px-8 py-10 sm:py-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center max-w-5xl mx-auto">
 
       {/* Left — text */}
       <div>
