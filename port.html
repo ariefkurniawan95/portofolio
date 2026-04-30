@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arief | Data Analyst</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- THEME -->
+  <style>
+    :root {
+      --p: 220 90% 55%;
+      --s: 260 80% 60%;
+      --a: 180 70% 50%;
+      --n: 220 15% 20%;
+      --b1: 0 0% 100%;
+      --b2: 220 20% 96%;
+      --bc: 220 15% 15%;
+    }
+  </style>
+</head>
+
+<body style="background-color: hsl(var(--b2)); color: hsl(var(--bc)); scroll-behavior: smooth;">
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-5xl md:text-6xl font-bold">Hi, I'm Arief</h1>
+    <p class="mt-4 text-xl opacity-70">Data Analyst | Supply Chain</p>
+
+    <p class="mt-6 max-w-xl opacity-70">
+      I transform data into actionable insights to improve decision-making, reduce inefficiencies, 
+      and optimize supply chain performance.
+    </p>
+
+    <div class="mt-8 flex gap-4">
+      <a href="#projects"
+        class="px-6 py-3 rounded-lg text-white"
+        style="background-color: hsl(var(--p));">
+        View Projects
+      </a>
+
+      <a href="#contact"
+        class="px-6 py-3 rounded-lg border"
+        style="border-color: hsl(var(--bc));">
+        Contact Me
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="max-w-4xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+
+    <p class="opacity-70 leading-relaxed">
+      I'm a data analyst specializing in supply chain and retail analytics. 
+      I work with SQL, Python, and BI tools to uncover insights, improve operational efficiency, 
+      and support data-driven decisions.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="py-20" style="background-color: hsl(var(--b1));">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-10">Skills</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
+        <div class="p-4 rounded-lg border">Python</div>
+        <div class="p-4 rounded-lg border">SQL</div>
+        <div class="p-4 rounded-lg border">Excel</div>
+        <div class="p-4 rounded-lg border">Power BI</div>
+        <div class="p-4 rounded-lg border">Tableau</div>
+        <div class="p-4 rounded-lg border">Looker Studio</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="max-w-6xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-semibold mb-12">Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Project 1 -->
+      <a href="projects/supply-chain.html" class="block">
+        <div class="p-6 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition cursor-pointer"
+          style="background-color: hsl(var(--b1));">
+          
+          <h3 class="text-xl font-bold">Supply Chain Dashboard</h3>
+          <p class="mt-2 opacity-60 text-sm">Power BI | SQL</p>
+
+          <p class="mt-4 opacity-70">
+            Built a dashboard to monitor stock availability and identify OOS trends.
+          </p>
+
+          <p class="mt-4 font-semibold">
+            Impact: Reduced stockouts by 12%
+          </p>
+        </div>
+      </a>
+
+      <!-- Project 2 -->
+      <a href="projects/forecasting.html" class="block">
+        <div class="p-6 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition cursor-pointer"
+          style="background-color: hsl(var(--b1));">
+
+          <h3 class="text-xl font-bold">Demand Forecasting Model</h3>
+          <p class="mt-2 opacity-60 text-sm">Python | Pandas</p>
+
+          <p class="mt-4 opacity-70">
+            Developed forecasting using historical sales data.
+          </p>
+
+          <p class="mt-4 font-semibold">
+            Impact: Improved planning accuracy
+          </p>
+        </div>
+      </a>
+
+      <!-- Project 3 -->
+      <a href="projects/vendor-analysis.html" class="block">
+        <div class="p-6 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition cursor-pointer"
+          style="background-color: hsl(var(--b1));">
+
+          <h3 class="text-xl font-bold">Vendor Cost Analysis</h3>
+          <p class="mt-2 opacity-60 text-sm">SQL | Excel</p>
+
+          <p class="mt-4 opacity-70">
+            Identified cost inefficiencies across vendors.
+          </p>
+
+          <p class="mt-4 font-semibold">
+            Impact: Reduced logistics cost
+          </p>
+        </div>
+      </a>
+
+      <!-- Project 4 -->
+      <a href="projects/inventory.html" class="block">
+        <div class="p-6 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition cursor-pointer"
+          style="background-color: hsl(var(--b1));">
+
+          <h3 class="text-xl font-bold">Inventory Optimization</h3>
+          <p class="mt-2 opacity-60 text-sm">Python | Analytics</p>
+
+          <p class="mt-4 opacity-70">
+            Optimized stock levels for better balance.
+          </p>
+
+          <p class="mt-4 font-semibold">
+            Impact: Reduced overstock & stockouts
+          </p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 text-center text-white"
+    style="background-color: hsl(var(--n));">
+
+    <h2 class="text-3xl font-semibold">Get In Touch</h2>
+    <p class="mt-4 opacity-70">Let’s discuss opportunities or collaborations</p>
+
+    <div class="mt-8 flex justify-center gap-6">
+      <a href="#" class="underline">LinkedIn</a>
+      <a href="#" class="underline">GitHub</a>
+      <a href="#" class="underline">Email</a>
+    </div>
+  </section>
+
+</body>
+</html>
