@@ -23,3 +23,13 @@
   z-index: 20;
   animation: smoke-rise 1s ease-out forwards;
 }
+
+@keyframes name-letter-pop {
+  0%   { transform: translateY(0); }
+  35%  { transform: translateY(-5px); color: #2563eb; }
+  100% { transform: translateY(0); }
+}
+
+.name-btn:hover .name-letter {
+  animation: name-letter-pop 0.5s ease forwards;
+}

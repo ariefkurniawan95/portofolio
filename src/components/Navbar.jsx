@@ -42,9 +42,17 @@ export default function Navbar() {
       <div className="flex justify-between items-center px-4 sm:px-8 py-4">
         <button
           onClick={handleGoHome}
-          className="font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+          className="name-btn font-medium text-gray-900 dark:text-white"
         >
-          {profile.name}
+          {profile.name.split("").map((char, i) => (
+            <span
+              key={i}
+              className="name-letter inline-block"
+              style={{ animationDelay: `${i * 35}ms` }}
+            >
+              {char === " " ? " " : char}
+            </span>
+          ))}
         </button>
 
         <div className="flex items-center gap-1">

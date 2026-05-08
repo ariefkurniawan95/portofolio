@@ -22,9 +22,16 @@ export default function Contact() {
             everyone in the room — I'm in.
           </p>
 
+          <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4">
+            Beyond analysis, I have a genuine passion for teaching. If you're looking
+            to sharpen your data skills and are interested in a private, one-on-one
+            learning session, I'm open to that opportunity as well — whether you're
+            just getting started or looking to level up in a specific area.
+          </p>
+
           <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-8">
-            If you have an interesting problem and think data can solve it, I'd love
-            to hear about it. No lengthy forms — just a message.
+            Have an interesting problem, a project idea, or simply want to learn
+            together? I'd love to hear from you. No lengthy forms — just a message.
           </p>
 
           {/* Availability badge */}
@@ -44,7 +51,7 @@ export default function Contact() {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
               <circle cx="12" cy="10" r="3"/>
             </svg>
-            {profile.location}
+            Open for opportunities everywhere in Indonesia
           </div>
         </div>
 
@@ -95,7 +102,7 @@ export default function Contact() {
           </a>
 
           <p className="text-xs text-gray-400 dark:text-gray-500 text-center pt-1">
-            Usually responds within a day · Based in Bandung, open to remote worldwide.
+            Usually responds within a day · Open for opportunities everywhere in Indonesia.
           </p>
 
         </div>
